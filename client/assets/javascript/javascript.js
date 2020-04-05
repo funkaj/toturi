@@ -37,6 +37,14 @@ window.onload = () => {
 			route = './assets/pages/game-canvas.html';
 			newRoute(route);
 			break;
+			case '/login.html':
+			route = './assets/pages/login.html';
+			newRoute(route);
+			break;
+			case '/sign-up.html':
+			route = './assets/pages/sign-up.html';
+			newRoute(route);
+			break;
 		default:
 			route = '/';
 			newRoute(route);
