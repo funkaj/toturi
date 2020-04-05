@@ -3,9 +3,13 @@
         <h1 class="display-4">Sign Up</h1>
         <p class="lead">Create a Account</p>
         <form>
-            <input placeholder='Name: '>
-            <input placeholder="Password:">
-            <input placeholder="Confirm Password:">
+            <input id="fn" placeholder="First Name:">
+            <input id="ln" placeholder="Last Name:">
+            <input id="email" placeholder="Email:">
+            <input id="pw" placeholder="Password:">
+            <input id="pwc" placeholder="Confirm Password:">
+            <button type="button" class="btn btn-primary" name='create-user'
+                onclick='createUser(fn.value,ln.value,email.value,pw.value,pwc.value)'>Submit</button>
         </form>
     </div>
 </div>

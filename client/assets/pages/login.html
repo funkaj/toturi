@@ -3,8 +3,10 @@
         <h1 class="display-4">Login</h1>
         <p class="lead">Please Sign In</p>
         <form>
-            <input placeholder='Name: '>
-            <input placeholder="Password:">
+            <input id='user_name' placeholder='Name: '>
+            <input id='password_submit' placeholder="Password:">
         </form>
+        <button type="button" class="btn btn-primary" name='login'
+            onclick='loginUser(user_name.value,password_submit.value)'>Submit</button>
     </div>
 </div>
